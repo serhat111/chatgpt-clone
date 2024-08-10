@@ -37,7 +37,7 @@ const DashboardPage = () => {
       <div className="texts">
         <div className="logo">
           <img src="/logo.png" alt="" />
-          <h1>LAMA AI</h1>
+          <h1>OURA AI</h1>
         </div>
         <div className="options">
           <div className="option">
@@ -50,7 +50,7 @@ const DashboardPage = () => {
           </div>
           <div className="option">
             <img src="/code.png" alt="" />
-            <span>Help me with my Code</span>
+            <span>Code Help </span>
           </div>
         </div>
       </div>

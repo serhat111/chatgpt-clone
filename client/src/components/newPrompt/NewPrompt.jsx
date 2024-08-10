@@ -132,10 +132,10 @@ const NewPrompt = ({ data }) => {
         </div>
       )}
       <div className="endChat" ref={endRef}></div>
-      <form className="newForm" onSubmit={handleSubmit} ref={formRef}>
+      <form className="newForm" onSubmit={handleSubmit} ref={formRef} autoComplete="none">
         <Upload setImg={setImg} />
         <input id="file" type="file" multiple={false} hidden />
-        <input type="text" name="text" placeholder="Ask anything..." />
+        <input type="text" name="text" placeholder="Ask anything..." id={`myInput_${Math.random()}`} />
         <button>
           <img src="/arrow.png" alt="" />
         </button>
